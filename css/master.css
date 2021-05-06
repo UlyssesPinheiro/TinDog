@@ -1,0 +1,190 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat';
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: 800;
+}
+
+.white {
+  color: white;
+}
+
+#title {
+  background-color: #ff4c68;
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* ============================= Nav Bar ============================*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.download-button-NoMarginLeft {
+  margin: 5% 3% 5% 0;
+}
+
+#iphonedog {
+  transform: rotate(25deg);
+  width: 60%;
+  position: relative;
+  left: 15%;
+  margin-bottom: -40%;
+}
+
+/* ============================= Features ============================*/
+#features {
+  text-align: center;
+  background-color: white;
+}
+
+.features-box {
+  padding: 5%;
+}
+
+.features-text {
+  color: #8f8f8f;
+}
+
+.features-icon {
+  color: #ef8172;
+  font-size: 4.5rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* ============================= TESTIMONIALS ============================*/
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 6rem;
+  margin: 20px;
+}
+
+.testimonial-box {
+  padding: 5%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 200px;
+  margin: 20px;
+}
+
+/* ============================= PRICING ============================*/
+#pricing {
+  text-align: center;
+}
+
+.cards-container {
+  margin-top: 30px;
+}
+
+.card {
+  margin-bottom: 30px;
+  height: 95%;
+}
+
+.card-button {
+  width: 100%;
+}
+
+/* ============================= DOWNLOAD ============================*/
+#download {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+/* ============================= FOOTER ============================*/
+#footer {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.footer-icon {
+  font-size: 20px;
+  margin: 0 10px 20px;
+}
+
+.download-button {
+  margin: 5% 2%;
+}
+
+/* ============================= MEDIA CSS ============================*/
+@media (max-width: 991px) {
+  #iphonedog {
+    transform: rotate(0);
+    position: static;
+    width: 60%;
+    margin-bottom: 0;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .press-logo {
+    width: 50%;
+  }
+}
+
+/* end */
